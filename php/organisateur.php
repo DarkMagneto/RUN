@@ -17,7 +17,7 @@ session_start();
   $lines_participant = $pdostatb->fetchAll(PDO::FETCH_ASSOC);
 
 // génération de la page
-DarckAsce_aff_debut("Organisateur", 'http://localhost/PWA/img/bgv192svg.svg','http://localhost/PWA/style.css',"http://localhost/PWA/js/geoloc.js");
+DarckAsce_aff_debut("Organisateur", 'https://darkmagneto.github.io/RUN/img/bgv192svg.svg','https://darkmagneto.github.io/RUN/style.css',"https://darkmagneto.github.io/RUN/js/geoloc.js");
 Darckasce_entete_menu();
 
 ?>
