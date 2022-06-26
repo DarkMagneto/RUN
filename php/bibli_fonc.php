@@ -1,7 +1,7 @@
 <?php
 /*********************************************************
  *        Bibliothèque de fonctions spécifiques          *
- *        à l'application M O N U M                      *
+ *              à l'application WEB RUN                  *
  *********************************************************/
 
 
@@ -140,19 +140,19 @@ function DarckAsce_aff_debut($titre, $cheminImage='..',$css = '../style.css', $j
     <meta name="black">
     <title>',$titre,'</title>
   <!-- MANIFEST -->
-    <link rel="manifest" href="../manifest.json">
+    <link rel="manifest" href="https://darkmagneto.github.io/RUN/manifest.json">
   <!-- ADD TO HOMESCREEN SAFARI ON IOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Simple PWA">
-    <link rel="apple-touch-icon" href="../img/bgv192svg.svg.png">
+    <link rel="apple-touch-icon" href="https://darkmagneto.github.io/RUN/img/bgv192svg.svg.png">
   <!-- ADD TO HOMESCREEN WINDOWS -->
-    <meta name="msapplicatoin-TileImage" content="../img/bgv192svg.svg.png">
+    <meta name="msapplicatoin-TileImage" content="https://darkmagneto.github.io/RUN/img/bgv192svg.svg.png">
     <meta name="msapplicatoin-TileColor" content="#3d5165">
   <!-- CSS --> 
     <link href="',$css, '" rel="stylesheet">
-    <link href="http://localhost/PWA/index.css" rel="stylesheet">
-    <link href="http://localhost/PWA/navbarr.css" rel="stylesheet">
+    <link href="https://darkmagneto.github.io/RUN/index.css" rel="stylesheet">
+    <link href="https://darkmagneto.github.io/RUN/navbarr.css" rel="stylesheet">
     
     <style>#maCarte{ height: 400px;width: 400px;}</style>
     <!-- Link OpenStreetMap / leaflet -->
@@ -169,7 +169,7 @@ function DarckAsce_aff_debut($titre, $cheminImage='..',$css = '../style.css', $j
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
   <!-- JS -->
     <script src="',$js,'" defer></script>  
-    <script src="https://localhost/PWA/index.js" defer></script> 
+    <script src="https://darkmagneto.github.io/RUN/index.js" defer></script> 
     </head><body>';
 }
 
@@ -857,7 +857,7 @@ function Darckasce_entete_menu() {
   <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
 
-    <a class="navbar-brand" href="http://localhost/PWA/index.html">RUN</a>
+    <a class="navbar-brand" href="https://darkmagneto.github.io/RUN/index.html">RUN</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -865,7 +865,7 @@ function Darckasce_entete_menu() {
 
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="http://localhost/PWA/php/deconnexion.php">Déconnexion</a>
+        <a class="nav-link active" aria-current="page" href="https://darkmagneto.github.io/RUN/php/deconnexion.php">Déconnexion</a>
       </li>
     </ul>
   </div>
@@ -891,20 +891,20 @@ function Darckasce_aff_menustyle() {
 
             <div class="navbar__item -blue">
             
-            <a class="navbar__item -blue" href="http://localhost/PWA/php/form_valid.php"><span class="navbar__icon"> <svg class="icon"><use xlink:href="#icon-home"> </use> </svg> </span></a>
+            <a class="navbar__item -blue" href="https://darkmagneto.github.io/RUN/php/form_valid.php"><span class="navbar__icon"> <svg class="icon"><use xlink:href="#icon-home"> </use> </svg> </span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
 
             </div> 
 
             <div class="navbar__item -orange">
             
-            <a class="navbar__item -orange" href="http://localhost/PWA/php/organisateur.php"><span class="navbar__icon"> <svg class="icon"><use xlink:href="#icon-cup"> </use> </svg> </span></a>
+            <a class="navbar__item -orange" href="https://darkmagneto.github.io/RUN/php/organisateur.php"><span class="navbar__icon"> <svg class="icon"><use xlink:href="#icon-cup"> </use> </svg> </span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
             </div> 
 
             <div class="navbar__item -navy-blue">
             
-            <a class="navbar__item -navy-blue" href="http://localhost/PWA/php/add.php"><span class="navbar__icon"> <svg class="icon"><use xlink:href="#icon-plus"> </use> </svg> </span></a>
+            <a class="navbar__item -navy-blue" href="https://darkmagneto.github.io/RUN/php/add.php"><span class="navbar__icon"> <svg class="icon"><use xlink:href="#icon-plus"> </use> </svg> </span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
 
             </div>
@@ -912,14 +912,14 @@ function Darckasce_aff_menustyle() {
 
             <div class="navbar__item -yellow">
               
-            <a class="navbar__item -yellow" href="http://localhost/PWA/php/search.php"><span class="navbar__icon"> <svg class="icon"><use xlink:href="#icon-search"> </use> </svg> </span></a>
+            <a class="navbar__item -yellow" href="https://darkmagneto.github.io/RUN/php/search.php"><span class="navbar__icon"> <svg class="icon"><use xlink:href="#icon-search"> </use> </svg> </span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
 
             </div> 
 
             <div class="navbar__item -purple" >
 
-            <a class="navbar__item -purple" href="http://localhost/PWA/php/profil.php"> <span class="navbar__icon" > <svg class="icon"> <use xlink:href="#icon-user"> </use> </svg> </span></a>
+            <a class="navbar__item -purple" href="https://darkmagneto.github.io/RUN/php/profil.php"> <span class="navbar__icon" > <svg class="icon"> <use xlink:href="#icon-user"> </use> </svg> </span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="true" aria-label="Toggle navigation">
       
             </div>
@@ -977,7 +977,7 @@ function Darckasce_aff_menustyle() {
  *
  * @param string    URL de la page vers laquelle l'utilisateur est redirigé
  */
-function Darckasce_session_exit($page = 'http://localhost/PWA/index.html') {
+function Darckasce_session_exit($page = 'https://darkmagneto.github.io/RUN/index.html') {
   session_destroy();
   session_unset();
   $cookieParams = session_get_cookie_params();
